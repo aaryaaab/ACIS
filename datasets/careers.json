@@ -1,0 +1,770 @@
+[
+ {
+  "slug": "software_engineer",
+  "name": "Software Engineer",
+  "description": "Designs, builds and maintains software systems and applications.",
+  "interest": {
+   "technology": 1,
+   "engineering": 0.6,
+   "mathematics": 0.4
+  },
+  "apt": {
+   "logical": 0.8,
+   "numerical": 0.5,
+   "creative": 0.3
+  },
+  "pers": {
+   "conscientiousness": 0.7
+  },
+  "skills": {
+   "programming_fundamentals": [
+    0.9,
+    3
+   ],
+   "python": [
+    0.6,
+    3
+   ],
+   "data_structures": [
+    0.9,
+    3
+   ],
+   "algorithms": [
+    0.8,
+    3
+   ],
+   "git": [
+    0.7,
+    3
+   ],
+   "sql": [
+    0.6,
+    3
+   ],
+   "web_development": [
+    0.5,
+    2
+   ],
+   "problem_solving": [
+    0.8,
+    3
+   ],
+   "teamwork": [
+    0.6,
+    3
+   ]
+  },
+  "degrees": [
+   "btech_cs",
+   "bca_mca"
+  ],
+  "pathway": "B.Tech/B.E. in Computer Science or IT (JEE Main / state CETs), or BCA followed by MCA. Build projects and a GitHub portfolio alongside."
+ },
+ {
+  "slug": "ai_ml_engineer",
+  "name": "AI / Machine Learning Engineer",
+  "description": "Builds and deploys models that learn from data.",
+  "interest": {
+   "technology": 1,
+   "mathematics": 0.8,
+   "science": 0.4
+  },
+  "apt": {
+   "logical": 0.8,
+   "numerical": 0.8,
+   "creative": 0.3
+  },
+  "pers": {
+   "openness": 0.7
+  },
+  "skills": {
+   "python": [
+    1,
+    4
+   ],
+   "statistics": [
+    0.9,
+    3
+   ],
+   "linear_algebra": [
+    0.8,
+    3
+   ],
+   "machine_learning": [
+    1,
+    4
+   ],
+   "deep_learning": [
+    0.7,
+    3
+   ],
+   "data_analysis": [
+    0.7,
+    3
+   ],
+   "git": [
+    0.5,
+    3
+   ],
+   "sql": [
+    0.4,
+    2
+   ]
+  },
+  "degrees": [
+   "btech_cs",
+   "msc_data"
+  ],
+  "pathway": "B.Tech in CS/AI or a maths-heavy degree, then specialise through projects, research or an M.Tech/MS."
+ },
+ {
+  "slug": "data_scientist",
+  "name": "Data Scientist",
+  "description": "Finds patterns in data and turns them into decisions.",
+  "interest": {
+   "technology": 0.8,
+   "mathematics": 0.9,
+   "business": 0.4,
+   "science": 0.4
+  },
+  "apt": {
+   "numerical": 0.9,
+   "logical": 0.7,
+   "verbal": 0.4
+  },
+  "pers": {
+   "openness": 0.6
+  },
+  "skills": {
+   "python": [
+    0.9,
+    3
+   ],
+   "statistics": [
+    1,
+    4
+   ],
+   "sql": [
+    0.8,
+    3
+   ],
+   "data_analysis": [
+    1,
+    4
+   ],
+   "data_visualization": [
+    0.8,
+    3
+   ],
+   "machine_learning": [
+    0.7,
+    3
+   ],
+   "communication": [
+    0.7,
+    3
+   ]
+  },
+  "degrees": [
+   "btech_cs",
+   "msc_data",
+   "bsc_stats"
+  ],
+  "pathway": "B.Sc/B.Tech in Statistics, Maths or CS; add data projects and an analytics portfolio."
+ },
+ {
+  "slug": "robotics_engineer",
+  "name": "Robotics Engineer",
+  "description": "Designs machines that sense and act, combining mechanics, electronics and software.",
+  "interest": {
+   "engineering": 1,
+   "technology": 0.7,
+   "science": 0.4
+  },
+  "apt": {
+   "logical": 0.7,
+   "spatial": 0.8,
+   "numerical": 0.6
+  },
+  "pers": {
+   "openness": 0.6
+  },
+  "skills": {
+   "electronics_basics": [
+    0.8,
+    3
+   ],
+   "embedded_systems": [
+    0.8,
+    3
+   ],
+   "c_cpp": [
+    0.7,
+    3
+   ],
+   "python": [
+    0.6,
+    3
+   ],
+   "control_systems": [
+    0.8,
+    3
+   ],
+   "ros": [
+    0.7,
+    3
+   ],
+   "mechanics": [
+    0.6,
+    3
+   ],
+   "cad": [
+    0.5,
+    3
+   ]
+  },
+  "degrees": [
+   "btech_ece",
+   "btech_mech"
+  ],
+  "pathway": "B.Tech in Mechatronics, ECE, Mechanical or CS; join a robotics club and build hardware projects."
+ },
+ {
+  "slug": "electronics_embedded",
+  "name": "Electronics & Embedded Engineer",
+  "description": "Designs circuits and the firmware that runs on devices.",
+  "interest": {
+   "engineering": 1,
+   "technology": 0.6,
+   "science": 0.4
+  },
+  "apt": {
+   "logical": 0.7,
+   "numerical": 0.7,
+   "spatial": 0.5
+  },
+  "pers": {
+   "conscientiousness": 0.7
+  },
+  "skills": {
+   "electronics_basics": [
+    1,
+    4
+   ],
+   "embedded_systems": [
+    0.9,
+    3
+   ],
+   "c_cpp": [
+    0.8,
+    3
+   ],
+   "problem_solving": [
+    0.6,
+    3
+   ],
+   "control_systems": [
+    0.4,
+    2
+   ]
+  },
+  "degrees": [
+   "btech_ece"
+  ],
+  "pathway": "B.Tech/Diploma in Electronics (ECE/EEE); learn microcontrollers early through hobby builds."
+ },
+ {
+  "slug": "mechanical_engineer",
+  "name": "Mechanical Engineer",
+  "description": "Designs and improves machines, vehicles and industrial systems.",
+  "interest": {
+   "engineering": 1,
+   "science": 0.6,
+   "mathematics": 0.5
+  },
+  "apt": {
+   "spatial": 0.8,
+   "numerical": 0.7,
+   "logical": 0.6
+  },
+  "pers": {
+   "conscientiousness": 0.7
+  },
+  "skills": {
+   "mechanics": [
+    1,
+    4
+   ],
+   "cad": [
+    0.9,
+    3
+   ],
+   "calculus": [
+    0.6,
+    3
+   ],
+   "problem_solving": [
+    0.7,
+    3
+   ],
+   "teamwork": [
+    0.5,
+    3
+   ]
+  },
+  "degrees": [
+   "btech_mech"
+  ],
+  "pathway": "B.Tech/Diploma in Mechanical Engineering (JEE Main / state CETs)."
+ },
+ {
+  "slug": "ux_designer",
+  "name": "UI / UX Designer",
+  "description": "Shapes how digital products look, feel and work for people.",
+  "interest": {
+   "arts_design": 1,
+   "technology": 0.5,
+   "social_impact": 0.3,
+   "writing_media": 0.2
+  },
+  "apt": {
+   "creative": 0.9,
+   "spatial": 0.6,
+   "verbal": 0.5
+  },
+  "pers": {
+   "openness": 0.8,
+   "agreeableness": 0.6
+  },
+  "skills": {
+   "design_thinking": [
+    0.9,
+    3
+   ],
+   "figma": [
+    0.9,
+    3
+   ],
+   "user_research": [
+    0.8,
+    3
+   ],
+   "visual_design": [
+    0.8,
+    3
+   ],
+   "communication": [
+    0.6,
+    3
+   ],
+   "web_development": [
+    0.3,
+    2
+   ]
+  },
+  "degrees": [
+   "bdes",
+   "btech_cs"
+  ],
+  "pathway": "B.Des (UCEED/NID DAT/other design entrances) or any degree plus a strong design portfolio."
+ },
+ {
+  "slug": "doctor",
+  "name": "Doctor (MBBS)",
+  "description": "Diagnoses and treats illness; long training route via medical entrance.",
+  "interest": {
+   "healthcare": 1,
+   "science": 0.8,
+   "social_impact": 0.5
+  },
+  "apt": {
+   "verbal": 0.6,
+   "logical": 0.6,
+   "numerical": 0.4
+  },
+  "pers": {
+   "conscientiousness": 0.8,
+   "emotional_stability": 0.7
+  },
+  "skills": {
+   "biology_basics": [
+    1,
+    4
+   ],
+   "clinical_basics": [
+    0.9,
+    3
+   ],
+   "communication": [
+    0.8,
+    3
+   ],
+   "critical_thinking": [
+    0.8,
+    3
+   ],
+   "teamwork": [
+    0.6,
+    3
+   ]
+  },
+  "degrees": [
+   "mbbs"
+  ],
+  "pathway": "Class 12 with PCB, then NEET-UG for MBBS; further specialisation through NEET-PG."
+ },
+ {
+  "slug": "biotech_researcher",
+  "name": "Biotechnology Researcher",
+  "description": "Studies living systems to develop medicines, crops and diagnostics.",
+  "interest": {
+   "science": 1,
+   "healthcare": 0.6,
+   "technology": 0.3
+  },
+  "apt": {
+   "logical": 0.7,
+   "verbal": 0.6,
+   "numerical": 0.6
+  },
+  "pers": {
+   "openness": 0.7,
+   "conscientiousness": 0.7
+  },
+  "skills": {
+   "biology_basics": [
+    1,
+    4
+   ],
+   "lab_techniques": [
+    0.9,
+    3
+   ],
+   "research_methods": [
+    0.8,
+    3
+   ],
+   "bioinformatics": [
+    0.5,
+    2
+   ],
+   "statistics": [
+    0.5,
+    3
+   ],
+   "writing": [
+    0.5,
+    3
+   ]
+  },
+  "degrees": [
+   "bsc_biotech"
+  ],
+  "pathway": "B.Sc/B.Tech Biotechnology, then M.Sc/PhD; research internships matter."
+ },
+ {
+  "slug": "chartered_accountant",
+  "name": "Chartered Accountant",
+  "description": "Handles auditing, taxation and financial reporting.",
+  "interest": {
+   "business": 1,
+   "mathematics": 0.6,
+   "law_governance": 0.3
+  },
+  "apt": {
+   "numerical": 0.9,
+   "logical": 0.6,
+   "verbal": 0.4
+  },
+  "pers": {
+   "conscientiousness": 0.9
+  },
+  "skills": {
+   "accounting": [
+    1,
+    4
+   ],
+   "financial_analysis": [
+    0.8,
+    3
+   ],
+   "critical_thinking": [
+    0.5,
+    3
+   ],
+   "communication": [
+    0.5,
+    3
+   ]
+  },
+  "degrees": [
+   "bcom_ca"
+  ],
+  "pathway": "ICAI route: Foundation/Intermediate/Final with articleship; commerce background helps."
+ },
+ {
+  "slug": "business_analyst",
+  "name": "Business / Management Analyst",
+  "description": "Uses data and strategy to improve how organisations run.",
+  "interest": {
+   "business": 1,
+   "technology": 0.4,
+   "mathematics": 0.5,
+   "social_impact": 0.2
+  },
+  "apt": {
+   "verbal": 0.7,
+   "numerical": 0.7,
+   "logical": 0.7
+  },
+  "pers": {
+   "extraversion": 0.6
+  },
+  "skills": {
+   "business_strategy": [
+    0.8,
+    3
+   ],
+   "data_analysis": [
+    0.7,
+    3
+   ],
+   "communication": [
+    0.9,
+    3
+   ],
+   "financial_analysis": [
+    0.6,
+    3
+   ],
+   "sql": [
+    0.4,
+    2
+   ],
+   "critical_thinking": [
+    0.7,
+    3
+   ]
+  },
+  "degrees": [
+   "bba",
+   "btech_cs"
+  ],
+  "pathway": "BBA/B.Com/B.Tech then MBA (CAT/other) or direct analyst roles."
+ },
+ {
+  "slug": "entrepreneur",
+  "name": "Entrepreneur / Startup Founder",
+  "description": "Builds new products or businesses and takes the risks that come with it.",
+  "interest": {
+   "business": 1,
+   "technology": 0.4,
+   "social_impact": 0.4
+  },
+  "apt": {
+   "creative": 0.7,
+   "verbal": 0.7,
+   "logical": 0.6
+  },
+  "pers": {
+   "extraversion": 0.7,
+   "openness": 0.7
+  },
+  "skills": {
+   "entrepreneurship": [
+    1,
+    3
+   ],
+   "business_strategy": [
+    0.8,
+    3
+   ],
+   "communication": [
+    0.8,
+    3
+   ],
+   "public_speaking": [
+    0.5,
+    3
+   ],
+   "financial_analysis": [
+    0.5,
+    2
+   ]
+  },
+  "degrees": [
+   "bba"
+  ],
+  "pathway": "No fixed route: build small ventures early, learn from incubators and mentors."
+ },
+ {
+  "slug": "lawyer",
+  "name": "Lawyer",
+  "description": "Advises and represents people and organisations in legal matters.",
+  "interest": {
+   "law_governance": 1,
+   "writing_media": 0.6,
+   "social_impact": 0.5
+  },
+  "apt": {
+   "verbal": 0.9,
+   "logical": 0.7
+  },
+  "pers": {
+   "extraversion": 0.5,
+   "conscientiousness": 0.7
+  },
+  "skills": {
+   "legal_reasoning": [
+    1,
+    4
+   ],
+   "writing": [
+    0.8,
+    3
+   ],
+   "public_speaking": [
+    0.7,
+    3
+   ],
+   "critical_thinking": [
+    0.8,
+    3
+   ],
+   "research_methods": [
+    0.5,
+    3
+   ]
+  },
+  "degrees": [
+   "llb"
+  ],
+  "pathway": "5-year integrated LLB (CLAT/other law entrances) or LLB after graduation."
+ },
+ {
+  "slug": "journalist",
+  "name": "Journalist / Media Professional",
+  "description": "Researches and tells stories across print, digital and broadcast media.",
+  "interest": {
+   "writing_media": 1,
+   "social_impact": 0.6,
+   "law_governance": 0.3
+  },
+  "apt": {
+   "verbal": 0.9,
+   "creative": 0.6
+  },
+  "pers": {
+   "openness": 0.7,
+   "extraversion": 0.6
+  },
+  "skills": {
+   "writing": [
+    1,
+    4
+   ],
+   "communication": [
+    0.8,
+    3
+   ],
+   "research_methods": [
+    0.6,
+    3
+   ],
+   "critical_thinking": [
+    0.7,
+    3
+   ],
+   "public_speaking": [
+    0.4,
+    2
+   ]
+  },
+  "degrees": [
+   "ba_media"
+  ],
+  "pathway": "BA/BJMC in Journalism and Mass Communication; build a published portfolio early."
+ },
+ {
+  "slug": "teacher_educator",
+  "name": "Teacher / Educator",
+  "description": "Helps others learn, in schools, colleges or online.",
+  "interest": {
+   "social_impact": 1,
+   "writing_media": 0.4,
+   "science": 0.3
+  },
+  "apt": {
+   "verbal": 0.8,
+   "logical": 0.5
+  },
+  "pers": {
+   "agreeableness": 0.8
+  },
+  "skills": {
+   "communication": [
+    0.9,
+    3
+   ],
+   "public_speaking": [
+    0.7,
+    3
+   ],
+   "critical_thinking": [
+    0.5,
+    3
+   ],
+   "writing": [
+    0.5,
+    3
+   ]
+  },
+  "degrees": [
+   "bed"
+  ],
+  "pathway": "Graduation in a subject plus B.Ed; TET/CTET for school teaching, NET for college roles."
+ },
+ {
+  "slug": "cybersecurity_analyst",
+  "name": "Cybersecurity Analyst",
+  "description": "Protects systems and data from attacks.",
+  "interest": {
+   "technology": 1,
+   "engineering": 0.4,
+   "law_governance": 0.2
+  },
+  "apt": {
+   "logical": 0.9,
+   "numerical": 0.5
+  },
+  "pers": {
+   "conscientiousness": 0.7
+  },
+  "skills": {
+   "networking_basics": [
+    0.9,
+    3
+   ],
+   "security_fundamentals": [
+    1,
+    3
+   ],
+   "programming_fundamentals": [
+    0.6,
+    3
+   ],
+   "python": [
+    0.5,
+    3
+   ],
+   "problem_solving": [
+    0.8,
+    3
+   ]
+  },
+  "degrees": [
+   "btech_cs"
+  ],
+  "pathway": "B.Tech in CS/IT; add networking and security certifications and practise on legal labs."
+ }
+]

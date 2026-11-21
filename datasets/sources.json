@@ -1,0 +1,65 @@
+[
+  {
+    "key": "acis_curated",
+    "name": "ACIS curated sample",
+    "url": "",
+    "licence": "Project-authored; CC BY 4.0 intended",
+    "attribution": "Written by the ACIS team as starter data. Career names and skill vocabulary follow the general categories used by O*NET and ESCO, but no records were copied from them.",
+    "last_verified": null,
+    "note": "Interest/aptitude weights, theory_level and session_minutes are the team's own annotations, not published statistics. Replace with real imports (an ESCO/O*NET import script has not been written yet) for the final evaluation."
+  },
+  {
+    "key": "freecodecamp",
+    "name": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org/",
+    "licence": "Free curriculum; see site terms (code under BSD-3-Clause)",
+    "attribution": "freeCodeCamp.org",
+    "last_verified": null,
+    "note": "Link points to the site; course pages not individually verified."
+  },
+  {
+    "key": "nptel",
+    "name": "NPTEL",
+    "url": "https://nptel.ac.in/",
+    "licence": "See NPTEL terms of use",
+    "attribution": "NPTEL, Ministry of Education, Govt. of India / IITs and IISc",
+    "last_verified": null,
+    "note": "Link points to the catalogue; individual courses must be checked before use."
+  },
+  {
+    "key": "swayam",
+    "name": "SWAYAM",
+    "url": "https://swayam.gov.in/",
+    "licence": "See SWAYAM terms of use",
+    "attribution": "SWAYAM, Ministry of Education, Govt. of India",
+    "last_verified": null,
+    "note": "Link points to the portal."
+  },
+  {
+    "key": "cs50",
+    "name": "Harvard CS50",
+    "url": "https://cs50.harvard.edu/",
+    "licence": "CC BY-NC-SA 4.0 (course materials)",
+    "attribution": "Harvard University / CS50",
+    "last_verified": null,
+    "note": ""
+  },
+  {
+    "key": "khan",
+    "name": "Khan Academy",
+    "url": "https://www.khanacademy.org/",
+    "licence": "CC BY-NC-SA (most content)",
+    "attribution": "Khan Academy",
+    "last_verified": null,
+    "note": ""
+  },
+  {
+    "key": "others",
+    "name": "Other free providers",
+    "url": "",
+    "licence": "Per provider",
+    "attribution": "fast.ai, Kaggle, MIT OpenCourseWare, The Odin Project",
+    "last_verified": null,
+    "note": "Per-resource URLs are the providers' main pages."
+  }
+]

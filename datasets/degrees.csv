@@ -1,0 +1,15 @@
+slug,name,level,entrance_exams
+btech_cs,B.Tech / B.E. Computer Science & IT,ug,"JEE Main, state CETs, university tests"
+btech_ece,B.Tech / B.E. Electronics & Communication,ug,"JEE Main, state CETs"
+btech_mech,B.Tech / B.E. Mechanical Engineering,ug,"JEE Main, state CETs"
+bca_mca,BCA then MCA,ug,University / CUET-based admissions
+msc_data,M.Sc / M.Tech Data Science or AI,pg,"University-specific (e.g. GATE, CUET-PG)"
+bsc_stats,B.Sc Statistics / Mathematics,ug,CUET-UG / university admissions
+bdes,B.Des (Design),ug,"UCEED, NID DAT and others"
+mbbs,MBBS,ug,NEET-UG
+bsc_biotech,B.Sc / B.Tech Biotechnology,ug,"CUET-UG, JEE Main (B.Tech), state tests"
+bcom_ca,B.Com with CA (ICAI route),ug,ICAI registration; B.Com via CUET-UG/university
+bba,BBA / BMS,ug,"CUET-UG, IPMAT, university tests"
+llb,Integrated LLB / LLB,ug,"CLAT, AILET, other law entrances"
+ba_media,BA / BJMC Journalism & Mass Communication,ug,"CUET-UG, university tests"
+bed,B.Ed (after graduation),ug,State / university entrance

@@ -1,0 +1,44 @@
+slug,name,category,source_key
+programming_fundamentals,Programming fundamentals,technical,acis_curated
+python,Python,technical,acis_curated
+c_cpp,C / C++,technical,acis_curated
+data_structures,Data structures,technical,acis_curated
+algorithms,Algorithms,technical,acis_curated
+git,Git & version control,technical,acis_curated
+sql,SQL & databases,technical,acis_curated
+web_development,Web development,technical,acis_curated
+statistics,Statistics,math,acis_curated
+linear_algebra,Linear algebra,math,acis_curated
+calculus,Calculus,math,acis_curated
+machine_learning,Machine learning,technical,acis_curated
+deep_learning,Deep learning,technical,acis_curated
+data_analysis,Data analysis,technical,acis_curated
+data_visualization,Data visualisation,technical,acis_curated
+electronics_basics,Electronics basics,engineering,acis_curated
+embedded_systems,Embedded systems,engineering,acis_curated
+cad,CAD modelling,engineering,acis_curated
+mechanics,Engineering mechanics,engineering,acis_curated
+control_systems,Control systems,engineering,acis_curated
+ros,Robotics software (ROS),engineering,acis_curated
+design_thinking,Design thinking,design,acis_curated
+figma,Interface design tools,design,acis_curated
+user_research,User research,design,acis_curated
+visual_design,Visual design,design,acis_curated
+biology_basics,Biology fundamentals,science,acis_curated
+lab_techniques,Laboratory techniques,science,acis_curated
+bioinformatics,Bioinformatics,science,acis_curated
+research_methods,Research methods,science,acis_curated
+communication,Communication,soft,acis_curated
+writing,Writing,soft,acis_curated
+critical_thinking,Critical thinking,soft,acis_curated
+problem_solving,Problem solving,soft,acis_curated
+teamwork,Teamwork,soft,acis_curated
+public_speaking,Public speaking,soft,acis_curated
+accounting,Accounting,business,acis_curated
+financial_analysis,Financial analysis,business,acis_curated
+business_strategy,Business strategy,business,acis_curated
+networking_basics,Computer networking,technical,acis_curated
+security_fundamentals,Security fundamentals,technical,acis_curated
+legal_reasoning,Legal reasoning,law,acis_curated
+entrepreneurship,Entrepreneurship,business,acis_curated
+clinical_basics,Clinical foundations,health,acis_curated

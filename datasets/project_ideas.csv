@@ -1,0 +1,17 @@
+title,description,difficulty,est_hours,skills,careers
+Number guessing and quiz game in Python,"Command-line game that practises loops, functions and input handling.",1,6,programming_fundamentals;python,software_engineer;ai_ml_engineer;data_scientist
+Personal expense tracker,Small app that stores expenses and shows monthly totals.,1,10,python;sql,software_engineer;data_scientist;business_analyst
+Personal portfolio website,A simple website with your projects and an About page.,1,12,web_development;git;visual_design,software_engineer;ux_designer
+Analyse a public dataset,"Pick an open dataset, clean it, chart it and write three findings.",2,15,data_analysis;data_visualization;statistics;python,data_scientist;ai_ml_engineer;business_analyst
+Spam message classifier,Train a basic text classifier and measure its accuracy honestly.,2,20,machine_learning;python,ai_ml_engineer;data_scientist
+Image classifier with a small neural network,Train a small model on a public image set and examine its mistakes.,3,30,deep_learning;python,ai_ml_engineer
+Line-following robot,Build a small robot that follows a line using sensors and a microcontroller.,2,25,electronics_basics;embedded_systems;control_systems,robotics_engineer;electronics_embedded
+Temperature logger with a microcontroller,"Read a sensor, store values and display a simple graph.",1,12,electronics_basics;embedded_systems,electronics_embedded;robotics_engineer
+Design a mobile app screen flow,"Redesign one screen of an app you use, with a short rationale.",1,8,figma;design_thinking;visual_design,ux_designer
+Usability test with five people,Ask five people to complete a task on a website and write up what you learn.,2,12,user_research;communication,ux_designer
+Simple 3D-modelled mechanical part,Model and dimension a part in a free CAD tool.,1,10,cad;mechanics,mechanical_engineer;robotics_engineer
+Mini research review,Read five papers on a topic you like and write a two-page review.,2,15,research_methods;writing;critical_thinking,biotech_researcher;journalist;data_scientist
+Small-business financial model,Build a simple profit forecast for a local shop idea.,2,12,financial_analysis;accounting;business_strategy,chartered_accountant;business_analyst;entrepreneur
+Network scan lab at home,Use a legal practice lab to map a small network and document it.,2,15,networking_basics;security_fundamentals,cybersecurity_analyst
+Write and publish three short articles,"Choose a local issue, interview someone, write and publish it.",1,10,writing;communication;research_methods,journalist;teacher_educator
+Mock debate or moot,Prepare and present both sides of a case.,1,6,legal_reasoning;public_speaking;critical_thinking,lawyer

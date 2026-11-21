@@ -1,0 +1,67 @@
+# ACIS: database + backend + frontend.   Start with:   docker compose up --build
+# Copy .env.example to .env first and fill in the two required values (POSTGRES_PASSWORD, SECRET_KEY).
+name: acis
+
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-acis}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Copy .env.example to .env and set POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB:-acis}
+    volumes:
+      - acis_pgdata:/var/lib/postgresql/data
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    ports:
+      - "127.0.0.1:${DB_PORT:-5433}:5432"      # only this computer can reach the database, never the network
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-acis}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-acis}
+      SECRET_KEY: ${SECRET_KEY:?Copy .env.example to .env and set SECRET_KEY}
+      ENVIRONMENT: ${ENVIRONMENT:-development}
+      COOKIE_SECURE: ${COOKIE_SECURE:-false}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:3000}
+      AUTH_MODE: ${AUTH_MODE:-local}
+      SUPABASE_JWT_SECRET: ${SUPABASE_JWT_SECRET:-}
+      LLM_PROVIDER: ${LLM_PROVIDER:-none}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_BASE_URL: ${LLM_BASE_URL:-}
+      LLM_MODEL: ${LLM_MODEL:-}
+      STT_PROVIDER: ${STT_PROVIDER:-none}
+      STT_API_KEY: ${STT_API_KEY:-}
+      STT_BASE_URL: ${STT_BASE_URL:-}
+      STT_MODEL: ${STT_MODEL:-whisper-1}
+      RESEARCHER_EMAILS: ${RESEARCHER_EMAILS:-}
+      SEED_ON_START: ${SEED_ON_START:-true}
+    ports:
+      - "127.0.0.1:${BACKEND_PORT:-8000}:8000"  # optional: lets you open the Swagger docs at http://localhost:8000/docs
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        BACKEND_URL: http://backend:8000
+        CSP_REPORT_ONLY: ${CSP_REPORT_ONLY:-false}
+    restart: unless-stopped
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "${FRONTEND_PORT:-3001}:3000"
+
+volumes:
+  acis_pgdata:
